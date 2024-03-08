@@ -5,6 +5,8 @@
 
 ## O projeto está organizado da seguinte forma:
 
+## FR0NT-AND
+
 - `index.html`: Página inicial do aplicativo.
 
 ## CSS/
@@ -64,6 +66,9 @@ Contém as páginas HTML do aplicativo.
 - `services.html`: Página de serviços.
 - `card.html`: Página de cartão.
 - `client-area.html`: Página da área do cliente.
+
+  
+## BACK-END
 
 ## Components/
 
