@@ -1,13 +1,13 @@
-# Estrutura do Projeto Crkbank versão web. Desenvolvido por: Daniel P. Souza. ﻿
+# Projeto Crkbank versão web. Desenvolvido por: Daniel P. Souza. ﻿
 
 
 
 
-Este repositório contém o código-fonte para o aplicativo fintech. O projeto está organizado da seguinte forma:
+## O projeto está organizado da seguinte forma:
 
 - `index.html`: Página inicial do aplicativo.
 
-## Diretório css/
+## CSS/
 
 Contém os arquivos CSS para estilização do aplicativo.
 
@@ -25,7 +25,7 @@ Contém os arquivos CSS para estilização do aplicativo.
   - `card.css`: Estilos para a página de cartão.
   - `client-area.css`: Estilos para a área do cliente.
 
-## Diretório js/
+## JS/
 
 Contém os arquivos JavaScript para a lógica do aplicativo.
 
@@ -65,7 +65,7 @@ Contém as páginas HTML do aplicativo.
 - `card.html`: Página de cartão.
 - `client-area.html`: Página da área do cliente.
 
-## Diretório components/
+## Components/
 
 Contém os componentes reutilizáveis do aplicativo.
 
