@@ -1,0 +1,51 @@
+- index.html
+- css/
+  - style.css
+  - components/
+    - header.css
+    - footer.css
+    - sidebar.css
+  - pages/
+    - dashboard.css
+    - transactions.css
+    - admin.css
+    - support.css
+    - services.css
+    - card.css
+    - client-area.css
+- js/
+  - main.js
+  - components/
+    - header.js
+    - footer.js
+    - sidebar.js
+  - pages/
+    - dashboard.js
+    - transactions.js
+    - admin.js
+    - support.js
+    - services.js
+    - card.js
+    - client-area.js
+- images/
+- fonts/
+- vendor/
+  - framework.js
+- pages/
+  - login.html
+  - admin-verification.html
+  - admin-dashboard.html
+  - secondary-admin-dashboard.html
+  - primary-admin-dashboard.html
+  - support.html
+  - services.html
+  - card.html
+  - client-area.html
+- components/
+  - header.html
+  - footer.html
+  - sidebar.html
+- utils/
+  - api.js
+  - validation.js
+- README.md
