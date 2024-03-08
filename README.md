@@ -5,7 +5,7 @@
 
 ## O projeto está organizado da seguinte forma:
 
-## FR0NT-AND
+## FR0NT- AND
 
 - `index.html`: Página inicial do aplicativo.
 
