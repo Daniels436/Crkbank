@@ -49,11 +49,11 @@ Contém os arquivos JavaScript para a lógica do aplicativo.
 
 Contêm imagens e fontes utilizadas no aplicativo.
 
-## Diretório vendor/
+## vendor/
 
 Contém bibliotecas ou dependências de terceiros.
 
-## Diretório pages/
+## pages/
 
 Contém as páginas HTML do aplicativo.
 
