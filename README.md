@@ -82,7 +82,7 @@ Contém utilitários e arquivos de apoio.
 - `validation.js`: Funções para validação de dados.
 
   
-## Back-end
+## Back-end em Node.js e Mysql
 
 # Estrutura 
 
