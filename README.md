@@ -1,4 +1,4 @@
-# Projeto Crkbank versão web. Desenvolvido por: Daniel P. Souza. ﻿
+# Projeto Web-bank versão 000. ﻿
 
 
 
@@ -68,7 +68,7 @@ Contém as páginas HTML do aplicativo.
 - `client-area.html`: Página da área do cliente.
 
   
-## BACK-END
+
 
 ## Components/
 
@@ -84,3 +84,36 @@ Contém utilitários e arquivos de apoio.
 
 - `api.js`: Funções para realizar chamadas de API.
 - `validation.js`: Funções para validação de dados.
+
+  
+## Back-end
+# Este é o repositório do back-end do projeto de fusões de bancos e pagamentos.
+
+Estrutura do diretório
+src/: Contém o código-fonte do back-end.
+src/controllers/: Contém os controladores do back-end.
+src/controllers/fusionController.js: Controlador para as operações relacionadas a fusões.
+src/controllers/bankController.js: Controlador para as operações relacionadas a bancos.
+src/controllers/payController.js: Controlador para as operações relacionadas a pagamentos.
+src/models/: Contém os modelos de dados do back-end.
+src/models/fusionModel.js: Modelo de dados para fusões.
+src/models/bankModel.js: Modelo de dados para bancos.
+src/models/payModel.js: Modelo de dados para pagamentos.
+src/routes/: Contém as rotas do back-end.
+src/routes/fusionRoutes.js: Rotas para as operações relacionadas a fusões.
+src/routes/bankRoutes.js: Rotas para as operações relacionadas a bancos.
+src/routes/payRoutes.js: Rotas para as operações relacionadas a pagamentos.
+src/utils/: Contém utilitários do back-end.
+src/utils/securityUtils.js: Utilitários para segurança.
+src/utils/businessRules.js: Regras de negócio do projeto.
+src/config/: Contém as configurações do back-end.
+src/config/databaseConfig.js: Configurações do banco de dados.
+src/config/serverConfig.js: Configurações do servidor.
+Executando o back-end
+Certifique-se de ter o Node.js instalado.
+Instale as dependências do back-end executando npm install.
+Inicie o servidor back-end executando npm start.
+Assistant
+Assistant
+
+Poe
