@@ -87,9 +87,8 @@ Contém utilitários e arquivos de apoio.
 
   
 ## Back-end
-# Este é o repositório do back-end do projeto de fusões de bancos e pagamentos.
 
-### Estrutura do diretório
+# Estrutura do diretório
 
 - `src/`: Contém o código-fonte do back-end.
 - `src/controllers/`: Contém os controladores do back-end.
