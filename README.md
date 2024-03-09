@@ -115,4 +115,4 @@ Contém utilitários e arquivos de apoio.
 1. Certifique-se de ter o Node.js instalado.
 2. Instale as dependências do back-end executando `npm install`.
 3. Inicie o servidor back-end executando `npm start`.
-Poe
+
