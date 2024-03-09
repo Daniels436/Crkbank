@@ -78,7 +78,7 @@ Contém os componentes reutilizáveis do aplicativo.
 - `footer.html`: Rodapé do aplicativo.
 - `sidebar.html`: Barra lateral do aplicativo.
 
-## Diretório utils/
+## Utils/
 
 Contém utilitários e arquivos de apoio.
 
@@ -88,7 +88,7 @@ Contém utilitários e arquivos de apoio.
   
 ## Back-end
 
-# Estrutura do diretório
+# Estrutura 
 
 - `src/`: Contém o código-fonte do back-end.
 - `src/controllers/`: Contém os controladores do back-end.
