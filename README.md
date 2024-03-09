@@ -1,6 +1,6 @@
 # Projeto Web-bank versão 000. ﻿
 
-Bem-vindo ao meu  Projeto sou DANIEL P. SOUZA! Este repositório contém o código-fonte e os arquivos relacionados a uma Pagina de Banco especial que estou desenvolvendo. O principal motivo da criação da pagina é aprimorar as habilidades em frontend, backend, CSS, JavaScript, node.js e HTML, além de desenvolver projetos que beneficiem a comunidade em termos profissionais e educacionais. Obrigado!
+Bem-vindo ao meu  Projeto sou DANIEL P. SOUZA! Este repositório contém o código-fonte e os arquivos relacionados a uma Pagina de Banco especial que estou desenvolvendo. O principal motivo da criação da pagina é aprimorar as habilidades em frontend, backend, CSS, JavaScript, Node.js e HTML, além de desenvolver projetos que beneficiem a comunidade em termos profissionais e educacionais. Obrigado!
  Informações importantes para você começar a compreender o projeto:
  
 - `index.html`: Página inicial do aplicativo.
