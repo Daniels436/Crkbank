@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro-Web-Bank</title>
+    
+    <link rel="stylesheet" href="css-cadastro.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="username">Nome:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirmar Senha:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="cpfCnpj">CPF ou CNPJ:</label>
+                <input type="text" id="cpfCnpj" name="cpfCnpj" required>
+            </div>
+            <div class="form-group">
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" required pattern="[0-9]{5}-[0-9]{3}"
+                    title="Informe um CEP válido no formato 12345-678">
+            </div>
+            <div class="form-group">
+                <button type="submit">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById("registrationForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Impede o envio do formulário
+
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            var confirmPassword = document.getElementById("confirmPassword").value;
+            var email = document.getElementById("email").value;
+            var cpfCnpj = document.getElementById("cpfCnpj").value;
+            var cep = document.getElementById("cep").value;
+
+            var isValid = true;
+
+            if (!validateField(username, "username")) {
+                isValid = false;
+            }
+            if (!validatePassword(password)) {
+                isValid = false;
+            }
+            if (password !== confirmPassword) {
+                alert("As senhas não correspondem.");
+                isValid = false;
+            }
+            if (!validateField(email, "email")) {
+                isValid = false;
+            }
+            if (!validateCpfCnpj(cpfCnpj)) {
+                isValid = false;
+            }
+            if (!validateField(cep, "cep")) {
+                isValid = false;
+            }
+
+            if (isValid) {
+                // Lógica de cadastro do usuário
+                window.location.href = "cadastro_sucesso.html";
+            }
+        });
+
+        function validateField(value, fieldName) {
+            if (value.trim() === "") {
+                alert("O campo " + fieldName + " é obrigatório.");
+                return false;
+            }
+            return true;
+        }
+
+        function validatePassword(password) {
+            var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/;
+            if (!passwordRegex.test(password)) {
+                alert("A senha deve ter no mínimo 6 caracteres, pelo menos uma letra maiúscula, uma letra minúscula, um número e um símbolo especial.");
+                return false;
+            }
+            return true;
+        }
+
+        function validateCpfCnpj(cpfCnpj) {
+            cpfCnpj = cpfCnpj.replace(/[^\d]+/g, '');
+
+            if (cpfCnpj.length === 11) {
+                // Validação de CPF
+                if (!validateCpf(cpfCnpj)) {
+                    alert("CPF inválido");
+                    return false;
+                }
+            } else if (cpfCnpj.length === 14) {
+                // Validação de CNPJ
+                if (!validateCnpj(cpfCnpj)) {
+                    alert("CNPJ inválido");
+                    return false;
+                }
+            } else {
+                alert("CPF ou CNPJ inválido");
+
+
+
+                return false;
+            }
+
+            return true;
+        }
+
+        function validateCpf(cpf) {
+            // Lógica de validação do CPF
+            return true;
+        }
+
+        function validateCnpj(cnpj) {
+            // Lógica de validação do CNPJ
+            return true;
+        }
+    </script>
+</body>
+
+</html>

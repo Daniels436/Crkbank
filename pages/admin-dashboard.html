@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dashboard.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Inclua a biblioteca Chart.js através da CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="secondary-admin-dashboard.html">Painel Inicial</a></li>
+                <li><a href="#client">Clientes</a></li>
+                <li><a href="#grafico">Graficos</a></li>
+                <li><a href="#informacoes">Informações do sistema</a></li>
+            
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Admin Dashboard</h1>
+        
+        <section>
+            <h2>Visão geral</h2>
+            <p>Bem-vindo(a) ao painel de controle do administrador do Web-Bank. Aqui você pode gerenciar as operações e configurar as atualizarações do sistema.</p>
+        </section>
+        
+        <section id="informacoes">
+            <h2>Informações do sistema</h2>
+            <div class="system-info">
+                <div class="info-card">
+                    <h3>Total de usuários</h3>
+                    <p>500</p>
+                </div>
+                <div class="info-card">
+                    <h3>Total de transações</h3>
+                    <p>1000</p>
+                </div>
+                <div class="info-card">
+                    <h3>Total de contas</h3>
+                    <p>250</p>
+                </div>
+                <div class="info-card">
+                    <h3>Total de bancos</h3>
+                    <p>10</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="client">
+            <h2>Operações recentes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Usuário</th>
+                        <th>Operação</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#">2024-03-10</a></td>
+                        <td><a href="#">John Doe</a></td>
+                        <td><a href="#">Transferência</a></td>
+                        <td><a href="#">$1000</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">2024-03-09</a></td>
+                        <td><a href="#">Jane Smith</a></td>
+                        <td><a href="#">Depósito</a></td>
+                        <td><a href="#">$500</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">2024-03-08</a></td>
+                        <td><a href="#">Robert Johnson</a></td>
+                        <td><a href="#">Saque</a></td>
+                        <td><a href="#">$200</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="grafico">
+            <h2>Gráfico de transações</h2>
+            <canvas id="transaction-chart"></canvas>
+        </section>
+        
+        <!-- Adicione outras seções e informações relevantes -->
+    </main>
+    
+    <script src="dashboard.js"></script>
+</body>
+</html>
