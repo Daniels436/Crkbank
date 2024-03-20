@@ -84,9 +84,8 @@ Contém utilitários e arquivos de apoio.
   
 ## Back-end em Node.js e Mysql
 
-# Estrutura 
-
-- `src/`: Contém o código-fonte do back-end.
+# Estrutura
+## src/`: Contém o código-fonte do back-end.
 - `src/controllers/`: Contém os controladores do back-end.
 - `src/controllers/fusionController.js`: Controlador para as operações relacionadas a fusões.
 - `src/controllers/bankController.js`: Controlador para as operações relacionadas a bancos.
